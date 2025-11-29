@@ -1,10 +1,7 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import Login from './components/Login';
-import AdminDashboard from './components/AdminDashboard';
-import LenderDashboard from './components/LenderDashboard';
-import BorrowerDashboard from './components/BorrowerDashboard';
-import FinancialAnalystDashboard from './components/FinancialAnalystDashboard';
+import { Login } from './components/AllComponents';
+import { AdminDashboard, LenderDashboard, BorrowerDashboard, FinancialAnalystDashboard } from './components/Dashboards';
 import './App.css';
 
 function App() {
